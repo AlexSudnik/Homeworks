@@ -9,7 +9,6 @@ public class Task1_2 {
         Scanner scanner = new Scanner(System.in);
         char let = scanner.next().toLowerCase().charAt(0);
 
-
         switch (let){
             case 'e':
                 System.out.println("Гласная");

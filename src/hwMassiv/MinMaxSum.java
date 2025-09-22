@@ -15,7 +15,6 @@ public class MinMaxSum {
             if (arr[n] > max) {
                 max = arr[n];
             }
-
         }
         int sum = min + max;
         System.out.println("Сумма минимального и максимального элементов равна " + sum);
