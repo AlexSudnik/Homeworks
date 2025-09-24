@@ -1,7 +1,12 @@
 import hw1.*;
+import hwClass.*;
+import hwClass.Peregruz;
 import hwMassiv.ChetNechetDiff;
 import hwMassiv.Fibonacci;
 import hwMassiv.MinMaxSum;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+
+import java.util.Arrays;
+
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
@@ -24,13 +29,51 @@ public class Main {
 //        Fibonacci hw = new Fibonacci();
 //        hw.fibonacci();
 
-        Fibonacci hw = new Fibonacci();
-        hw.fibonacci();
 
-        MinMaxSum hw1 = new MinMaxSum();
-        hw1.minMaxSum();
+//        Fibonacci hw = new Fibonacci();
+//        hw.fibonacci();
+//
+//        MinMaxSum hw1 = new MinMaxSum();
+//        hw1.minMaxSum();
+//
+//        ChetNechetDiff hw3 = new ChetNechetDiff();
+//        hw3.chetNechetDiff();
+//         /////////////////////////////////////////////////
 
-        ChetNechetDiff hw3 = new ChetNechetDiff();
-        hw3.chetNechetDiff();
-        }
+
+
+
+
+
+
+//        SEASONS season  = SEASONS.APRIL;
+//        System.out.println(season.getSeasonName());
+//        }
+
+        USER hw1 = USER.USER1;
+        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge());
+        hw1.setAge(50);
+        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge()  + " " + "Пол " + hw1.getGender());
+
+//        Constructor hw2 = new Constructor("milk", 2);
+//
+//        System.out.println(hw2.getName());
+//        System.out.println(hw2.getPrice());
+//
+//        Constructor hw3 = new Constructor();
+//        System.out.println(hw3.getName());
+//        System.out.println(hw3.getPrice());
+
+        ChetNechetDiff hw3= new ChetNechetDiff();
+        hw3.chetNechetDiff(); // здесь сработал deprecated
+
+        int result = Peregruz.numbers(2,3);
+        System.out.println(result); //как здесь вызвать разные методы?
+
+
+    }
+
+
+
+
     }

@@ -2,6 +2,7 @@ package hwMassiv;
 
 public class ChetNechetDiff {
 
+    @Deprecated
     public void chetNechetDiff() {
 
         int[] arr = {3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0};
