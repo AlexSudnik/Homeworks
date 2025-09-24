@@ -67,6 +67,7 @@ public class Main {
         ChetNechetDiff hw3= new ChetNechetDiff();
         hw3.chetNechetDiff(); // здесь сработал deprecated
 
+        //так вызывается метод из peregruz
         int result = Peregruz.numbers(2,3);
         System.out.println(result); //как здесь вызвать разные методы?
 
