@@ -4,7 +4,7 @@ public enum USER {
 
     USER1("Иванов", "Иван", 30, "Муж"),
     USER2("Петров", "Петр", 33, "Муж"),
-    USER3("Силорова", "Анна", 35, "Жен");
+    USER3("Сидорова", "Анна", 35, "Жен");
 
     private String firstName;
     private String lastName;
@@ -51,7 +51,7 @@ public enum USER {
     }
     public void printaddress(){
         Address address = new Address("bel", "vit");// откуда сама подтягивается переменная address?
-        address.print(); //почему address.print почему не Address почему именно переменная?
+        address.print();
     }
 
 

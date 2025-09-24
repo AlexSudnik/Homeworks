@@ -10,7 +10,7 @@ public class Constructor {
     }
 
     public Constructor(String name, int price) { //почему не работает без void?
-        this ();
+        this ();// как он понимает какой именно конструктор? а если их 3? и что дает этот вызов?
         System.out.println("data constructor");
         this.name = name;
         this.price = price;

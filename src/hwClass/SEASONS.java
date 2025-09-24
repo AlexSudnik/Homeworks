@@ -17,7 +17,8 @@ public enum SEASONS {
 
     private String seasonName;
 
-    public String getSeasonName() {
+    public String getSeasonName() {          // вот это, как я понимаю, и есть конструктор? а остальные строки ?
+                                             //ниже, видимо, метод, а выше?
         return seasonName;
     }
 

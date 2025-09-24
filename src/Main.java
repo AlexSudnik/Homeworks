@@ -41,10 +41,7 @@ public class Main {
 //         /////////////////////////////////////////////////
 
 
-
-
-
-
+        // hw 23/09
 
 //        SEASONS season  = SEASONS.APRIL;
 //        System.out.println(season.getSeasonName());
@@ -67,9 +64,11 @@ public class Main {
         ChetNechetDiff hw3= new ChetNechetDiff();
         hw3.chetNechetDiff(); // здесь сработал deprecated
 
-        //так вызывается метод из peregruz
-        int result = Peregruz.numbers(2,3);
-        System.out.println(result); //как здесь вызвать разные методы?
+        //так вызывается метод из peregruz, почему начинается с int? а все остальные с имени класса?
+
+
+        int peregruz = Peregruz.numbers(2,3);
+        System.out.println(peregruz); //как здесь вызвать разные методы?
 
 
     }
