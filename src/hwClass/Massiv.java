@@ -15,19 +15,14 @@ public class Massiv {
         return arr;
     }
 
-
     private int [] myArrayMinMax(){
         Arrays.sort(arr);
         int min = arr[0];
         int max = arr[arr.length -1];
-//        ???????????????????????????????????
         return arr;
-
     }
 
     private void printArray (int [] arr){
         System.out.println(Arrays.toString(arr));
     }
-
-
 }

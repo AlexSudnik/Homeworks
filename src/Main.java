@@ -43,14 +43,14 @@ public class Main {
 
         // hw 23/09
 
-//        SEASONS season  = SEASONS.APRIL;
-//        System.out.println(season.getSeasonName());
-//        }
+        SEASONS season = SEASONS.APRIL;
+        System.out.println(season.getSeasonName());
 
-        USER hw1 = USER.USER1;
-        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge());
-        hw1.setAge(50);
-        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge()  + " " + "Пол " + hw1.getGender());
+
+//        USER hw1 = USER.USER1;
+//        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge());
+//        hw1.setAge(50);
+//        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge()  + " " + "Пол " + hw1.getGender());
 
 //        Constructor hw2 = new Constructor("milk", 2);
 //
@@ -61,19 +61,19 @@ public class Main {
 //        System.out.println(hw3.getName());
 //        System.out.println(hw3.getPrice());
 
-        ChetNechetDiff hw3= new ChetNechetDiff();
-        hw3.chetNechetDiff(); // здесь сработал deprecated
-
-        //так вызывается метод из peregruz, почему начинается с int? а все остальные с имени класса?
-
-
-        int peregruz = Peregruz.numbers(2,3);
-        System.out.println(peregruz); //как здесь вызвать разные методы?
-
-
-    }
-
-
+//        ChetNechetDiff hw3= new ChetNechetDiff();
+//        hw3.chetNechetDiff(); // здесь сработал deprecated
+//
+//        //так вызывается метод из peregruz, почему начинается с int? а все остальные с имени класса?
+//
+//
+//        int peregruz = Peregruz.numbers(2,3);
+//        System.out.println(peregruz); //как здесь вызвать разные методы?
 
 
     }
+}
+
+
+
+

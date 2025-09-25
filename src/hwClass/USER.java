@@ -54,7 +54,6 @@ public enum USER {
         address.print();
     }
 
-
     public class Address{
         private String country;
         private String city;
