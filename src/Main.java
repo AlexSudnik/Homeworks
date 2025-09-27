@@ -4,6 +4,7 @@ import hwClass.Peregruz;
 import hwMassiv.ChetNechetDiff;
 import hwMassiv.Fibonacci;
 import hwMassiv.MinMaxSum;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+import hwOOP.*;
 
 import java.util.Arrays;
 
@@ -41,13 +42,6 @@ public class Main {
 //         /////////////////////////////////////////////////
 
 
-        // hw 23/09
-
-        SEASONS season = SEASONS.APRIL;
-        System.out.println(season.getSeasonName());
-
-
-//        USER hw1 = USER.USER1;
 //        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge());
 //        hw1.setAge(50);
 //        System.out.println(hw1.getFirstName() + " " + hw1.getLastName() + " Возраст " + hw1.getAge()  + " " + "Пол " + hw1.getGender());
@@ -71,8 +65,21 @@ public class Main {
 //        System.out.println(peregruz); //как здесь вызвать разные методы?
 
 
+//
+
+
+
+
+        Employee Employee1 = new Worker("Petr", "Petrov");
+        Employee Employee3 = new Worker("Petr", "Ivanov");
+        Employee Director1 = new Director("Sergey", "Sergeev");
+        Employee1.getFullName(); //тут еще и зп надо вывести
+        System.out.println(Employee1);
+
+        };
+
     }
-}
+
 
 
 
